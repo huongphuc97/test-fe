@@ -1,5 +1,5 @@
 import Info from '../assets/icons/icon-info.svg'
-import Challenge from '../assets/icons/icon-challenge.svg'
+import Challenge from '../assets/icons/icon-challenger.svg'
 import Memo from '../assets/icons/icon-memo.svg'
 
 export const labelChart = ['6月', '7月', '8月', '9月', '10月', '11月', '12月', '1月', '2月', '3月', '4月', '5月']

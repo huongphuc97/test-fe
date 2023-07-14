@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 import CustomChart from "../components/chart/Chart"
-import MyPageCircle from "../components/circle/MyPageCircle";
+import MyPageCircle from "../components/circle/Circle"
 import CustomButton from "../components/form/Button"
 import HomeTop from "../assets/images/main-photo.svg"
 import { datasetChartMyPage, myPageItems, categoriesMyPage } from "../utils/MockData"
