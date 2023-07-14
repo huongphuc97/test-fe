@@ -1,0 +1,70 @@
+@use "assets/scss/Chart";
+@use "assets/scss/Header";
+@use "assets/scss/Footer";
+@use "assets/scss/MyPage";
+@use "assets/scss/MyRecord";
+@use "assets/scss/Column";
+@use "assets/scss/CustomButton";
+@use "assets/scss/Circle";
+
+@font-face {
+  font-family: 'Hiragino Kaku Gothic Pro';
+  src: url("./assets/fonts/Hiragino Kaku Gothic Pro W3.otf");
+}
+
+body {
+  font-family: Inter;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+
+  &-home {
+    position: relative;
+    min-height: calc(100vh - 273px);
+    margin-bottom: 80px;
+  }
+
+  &-scroll {
+    position: fixed;
+    right: 20px;
+    bottom: 150px;
+    z-index: 99999;
+
+    img {
+      cursor: pointer;
+    }
+  }
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.center-element {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.font-custom {
+  font-family: 'Hiragino Kaku Gothic Pro';
+}

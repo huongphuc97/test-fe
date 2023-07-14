@@ -1,0 +1,56 @@
+.chart {
+  display: inline-flex;
+  flex-direction: column;
+  background: #2E2E2E;
+  overflow: hidden;
+  width: 100%;
+  padding: 20px;
+
+  &-content {
+    display: flex;
+    gap: 50px;
+  }
+
+  &-date {
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+  }
+
+  &-text {
+    display: inline-block;
+    width: 50px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+  }
+
+  canvas {
+    height: 100%;
+  }
+
+  &-buttons {
+    display: flex;
+    gap: 20px;
+    padding-top: 5px;
+  }
+
+  &-button {
+    width: 56px;
+    height: 24px;
+    text-align: center;
+    background: #fff;
+    color: #FFCC21;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .active {
+    background: #FFCC21;
+    color: #fff;
+  }
+}
